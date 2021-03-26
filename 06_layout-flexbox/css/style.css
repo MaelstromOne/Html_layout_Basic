@@ -1,3 +1,8 @@
+body {
+  font-family: Muller;
+  background: #E5E5E5;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -30,6 +35,11 @@ header {
   align-items: center;
 }
 
+.logo-container__left {
+  display: flex;
+  align-items: center;
+}
+
 .phone-number {
   margin-left: 35px;
 }
@@ -37,9 +47,12 @@ header {
 nav {
   margin-top: 30px;
   padding: 27px 45px;
+  background: white;
+  border-radius: 15px;
 }
 
 .navigation {
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,6 +77,38 @@ nav {
   grid-row: 1 / span 2;
   grid-column: 2;
 }
+
+.offers-element {
+  position: relative;
+}
+
+.offers-content {
+  color: white;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.offers-header {
+  margin: 0;
+}
+
+.offers-text {
+  margin-top: 15px;
+}
+
+.offers-link {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  display: flex;
+}
+
+.offers-link a {
+  color: #FFCC66;
+  margin-right: 5px;
+}
+
 
 .about-us {
   margin-top: 70px;
@@ -91,6 +136,33 @@ nav {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 23px;
+}
+
+.services-element {
+  border-radius: 15px;
+  background: white;
+}
+
+.services-content {
+  padding: 25px 45px 50px;
+}
+
+.services-content * {
+  margin: 0;
+}
+
+.services-content-container-header {
+  display: flex;
+  align-items: center;
+}
+
+.services-content-header {
+  margin-right: 5px;
+  color: #CC9933;
+}
+
+.services-content__text {
+  margin-top: 5px;
 }
 
 

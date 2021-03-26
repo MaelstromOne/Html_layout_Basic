@@ -4,20 +4,25 @@
   <meta charset="UTF-8">
   <title>Title</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/sty;e.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
   <div class="container">
     <div class="logo-container">
-      <img class="logo" src="img/Logo.png" alt="Logo">
-      <a class="phone-number" href="tel:+74953225448">+7 495 322 54 48</a>
+      <div class="logo-container__left">
+        <img class="logo" src="img/Logo.png" alt="Logo">
+        <a class="phone-number" href="tel:+74953225448">+7 495 322 54 48</a>
+      </div>
+      <div>
       <span class="personal-area-logo">
         <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M10.59 1.41L14.17 5H0V7H14.17L10.58 10.59L12 12L18 6L12 0L10.59 1.41ZM19 0V12H21V0H19Z" fill="#CC9933"/>
         </svg>
       </span>
-      <a class="personal-area" href="">Личный кабинет</a>
+        <a class="personal-area" href="">Личный кабинет</a>
+      </div>
     </div>
     <nav>
       <ul class="navigation">
@@ -41,26 +46,47 @@
       <ul class="offers__body">
         <li>
           <div class="offers-element">
-            <h3 class="offers-header">Мальдивские острова</h3>
-            <p>от 55 000 р</p>
-            <a href="">Подробнее</a>
-            <img src="img/Rectangle%2014.png" alt="">
+            <img src="img/Rectangle%2014.png" alt="Отель">
+            <div class="offers-content">
+              <h3 class="offers-header">Мальдивские острова</h3>
+              <p class="offers-text">от 55 000 р</p>
+            </div>
+            <div class="offers-link">
+              <a href="">Подробнее</a>
+              <svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/>
+              </svg>
+            </div>
           </div>
         </li>
         <li id="test">
           <div class="offers-element">
-            <h3 class="offers-header">Номера категории</h3>
-            <p>от 5000 р</p>
-            <a href="">Подробнее</a>
-            <img src="img/22.jpg" alt="">
+            <img src="img/22.jpg" alt="Отель">
+            <div class="offers-content">
+              <h3 class="offers-header">Номера категории</h3>
+              <p>от 5000 р</p>
+            </div>
+            <div class="offers-link">
+              <a href="">Подробнее</a>
+              <svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/>
+              </svg>
+            </div>
           </div>
         </li>
         <li>
           <div class="offers-element">
-            <h3 class="offers-header">Горящий тур на остров Крит</h3>
-            <p>от 30 000 р</p>
-            <a href="">Подробнее</a>
-            <img src="img/Rectangle%2016.png" alt="">
+            <img src="img/Rectangle%2016.png" alt="Отель">
+            <div class="offers-content">
+              <h3 class="offers-header">Горящий тур на остров Крит</h3>
+              <p>от 30 000 р</p>
+            </div>
+            <div class="offers-link">
+              <a href="">Подробнее</a>
+              <svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/>
+              </svg>
+            </div>
           </div>
         </li>
       </ul>
@@ -84,30 +110,56 @@
       <ul class="services__body">
         <li>
           <div class="services-element">
-            <img src="img/10.jpg" alt="">
-            <h2>Эксклюзивное обслуживание</h2>
-            <p>Равным образом постоянный количественный рост и сфера нашей активности</p>
+            <img src="img/10.png" alt="">
+            <div class="services-content">
+              <div class="services-content-container-header">
+                <h2 class="services-content-header">Эксклюзивное обслуживание</h2>
+                <svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/>
+                </svg>
+              </div>
+              <p class="services-content__text">Равным образом постоянный количественный рост и сфера нашей активности</p>
+            </div>
           </div>
         </li>
         <li>
           <div class="services-element">
-            <img src="img/15.jpg" alt="">
-            <h2>Аренда банкетных залов</h2>
-            <p>Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
+            <img src="img/15.png" alt="">
+            <div class="services-content">
+              <div class="services-content-container-header">
+                <h2 class="services-content-header">Аренда банкетных залов</h2>
+                <svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/>
+                </svg>
+              </div>
+              <p class="services-content__text">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
+            </div>
           </div>
         </li>
         <li>
           <div class="services-element">
-            <img src="img/12.jpg" alt="">
-            <h2>Сауны, бассейны, бани, фитнес-залы</h2>
-            <p>Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+            <img src="img/12.png" alt="">
+            <div class="services-content">
+              <div class="services-content-container-header">
+                <h2 class="services-content-header">Сауны, бассейны, бани, фитнес-залы</h2>
+                <svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/>
+                </svg>
+              </div>
+              <p class="services-content__text">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+            </div>
           </div>
         </li>
         <li>
           <div class="services-element">
-            <img src="img/carlo-d-agnolo-aFxSh_l4fbY-unsplash.jpg" alt="">
-            <h2>Охраняемые автомобильные стоянки</h2>
-            <p>Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+            <img src="img/14.png" alt="">
+            <div class="services-content">
+              <div class="services-content-container-header">
+                <h2 class="services-content-header">Охраняемые автомобильные стоянки</h2>
+                </svg>
+              </div>
+              <p class="services-content__text">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+            </div>
           </div>
         </li>
       </ul>
