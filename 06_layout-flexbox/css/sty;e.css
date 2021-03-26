@@ -113,3 +113,22 @@ nav {
 .advantages-element {
   padding: 40px;
 }
+
+.placement {
+  margin-top: 70px;
+}
+
+.placement__header {
+  margin-left: 40px;
+}
+
+.placement__body {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 23px;
+}
+
+.placement-element {
+  padding: 40px;
+}
