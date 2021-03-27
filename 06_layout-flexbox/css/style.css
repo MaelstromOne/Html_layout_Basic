@@ -1,0 +1,206 @@
+body {
+  font-family: Muller;
+  background: #E5E5E5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 30px
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container__left {
+  display: flex;
+  align-items: center;
+}
+
+.phone-number {
+  margin-left: 35px;
+}
+
+nav {
+  margin-top: 30px;
+  padding: 27px 45px;
+  background: white;
+  border-radius: 15px;
+}
+
+.navigation {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offers {
+  margin-top: 70px;
+}
+
+.offers__header {
+  margin-left: 40px;
+}
+
+.offers__body {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 23px;
+}
+
+.offers__body li:nth-child(2) {
+  grid-row: 1 / span 2;
+  grid-column: 2;
+}
+
+.offers-element {
+  position: relative;
+}
+
+.offers-content {
+  color: white;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.offers-header {
+  margin: 0;
+}
+
+.offers-text {
+  margin-top: 15px;
+}
+
+.offers-link {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  display: flex;
+}
+
+.offers-link a {
+  color: #FFCC66;
+  margin-right: 5px;
+}
+
+
+.about-us {
+  margin-top: 70px;
+}
+
+.about-us__header {
+  margin-left: 40px;
+}
+
+.about-us__body {
+  margin-top: 10px;
+}
+
+
+.services {
+  margin-top: 70px;
+}
+
+.services__header {
+  margin-left: 40px;
+}
+
+.services__body {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 23px;
+}
+
+.services-element {
+  border-radius: 15px;
+  background: white;
+}
+
+.services-content {
+  padding: 25px 45px 50px;
+}
+
+.services-content * {
+  margin: 0;
+}
+
+.services-content-container-header {
+  display: flex;
+  align-items: center;
+}
+
+.services-content-header {
+  margin-right: 5px;
+  color: #CC9933;
+}
+
+.services-content__text {
+  margin-top: 5px;
+}
+
+
+
+.advantages {
+  margin-top: 70px;
+}
+
+.advantages__header {
+  margin-left: 40px;
+}
+
+.advantages__body {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 23px;
+}
+
+.advantages-element {
+  padding: 40px;
+}
+
+.placement {
+  margin-top: 70px;
+}
+
+.placement__header {
+  margin-left: 40px;
+}
+
+.placement__body {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 23px;
+}
+
+.placement-element {
+  padding: 40px;
+}
