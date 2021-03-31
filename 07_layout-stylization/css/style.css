@@ -42,6 +42,14 @@ header {
 
 .phone-number {
   margin-left: 35px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #666666;
+}
+
+.personal-area {
+  font-size: 16px;
+  color: #CC9933;
 }
 
 nav {
@@ -58,12 +66,24 @@ nav {
   align-items: center;
 }
 
+.navigation-link {
+  font-size: 16px;
+  color: #CC9933;
+  border-radius: 10px;
+  border: 1px solid #CC9933;
+  padding: 10px;
+}
+
 .offers {
   margin-top: 70px;
 }
 
 .offers__header {
   margin-left: 40px;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
 }
 
 .offers__body {
@@ -91,10 +111,28 @@ nav {
 
 .offers-header {
   margin: 0;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  width: 300px;
+}
+
+.offers-header_second {
+  margin-top: 150px;
+  font-size: 60px;
+  line-height: 60px;
 }
 
 .offers-text {
   margin-top: 15px;
+  font-size: 20px;
+  line-height: 20px;
+  opacity: 0.8;
+}
+
+.offers-content__text-second {
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .offers-link {
@@ -109,17 +147,22 @@ nav {
   margin-right: 5px;
 }
 
-
 .about-us {
   margin-top: 70px;
 }
 
 .about-us__header {
   margin-left: 40px;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
 }
 
 .about-us__body {
   margin-top: 10px;
+  line-height: 32px;
+  width: 80%;
 }
 
 
@@ -129,6 +172,10 @@ nav {
 
 .services__header {
   margin-left: 40px;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
 }
 
 .services__body {
@@ -159,12 +206,16 @@ nav {
 .services-content-header {
   margin-right: 5px;
   color: #CC9933;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
 }
 
 .services-content__text {
   margin-top: 5px;
+  font-size: 16px;
+  line-height: 200%;
 }
-
 
 
 .advantages {
@@ -173,6 +224,10 @@ nav {
 
 .advantages__header {
   margin-left: 40px;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
 }
 
 .advantages__body {
@@ -184,6 +239,12 @@ nav {
 
 .advantages-element {
   padding: 40px;
+  background: white;
+  border-radius: 15px;
+}
+
+.advantages-element__text {
+  line-height: 200%;
 }
 
 .placement {
@@ -192,6 +253,10 @@ nav {
 
 .placement__header {
   margin-left: 40px;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
 }
 
 .placement__body {
@@ -201,6 +266,66 @@ nav {
   grid-gap: 23px;
 }
 
-.placement-element {
+.placement__element {
+  background: white;
+  border-radius: 15px;
+}
+
+.placement__content {
   padding: 40px;
 }
+
+.placement__content > *{
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.placement-content__price-per-night {
+  margin: 0;
+}
+
+.placement-content__price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.placement-content__header {
+  font-weight: normal;
+}
+
+.placement-content__text {
+  color: #999999;
+}
+
+.placement-content__link {
+  margin-top: 106px;
+  color: #CC9933;
+  border-radius: 10px;
+  border: 1px solid #CC9933;
+  padding: 10px;
+}
+
+.placement-content__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.placement-last-element {
+  position: absolute;
+}
+
+.placement-last-element__wrapper {
+  display: flex;
+  position: relative;
+  bottom: 60px;
+  left: 54px;
+}
+
+.placement-last-element__link {
+  color: white;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+}
+
