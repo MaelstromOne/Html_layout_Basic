@@ -288,7 +288,7 @@ nav {
 }
 
 .placement__content {
-  padding: 40px;
+  padding: 35px 40px;
 }
 
 .placement__content > *{
@@ -314,7 +314,8 @@ nav {
 }
 
 .placement-content__link {
-  margin-top: 106px;
+  display: inline-block;
+  margin-top: 15px;
   color: #CC9933;
   border-radius: 10px;
   border: 1px solid #CC9933;
@@ -322,6 +323,7 @@ nav {
 }
 
 .placement-content__wrapper {
+  margin: 0;
   display: flex;
   justify-content: space-between;
 }
