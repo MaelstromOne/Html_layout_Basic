@@ -474,27 +474,27 @@
         Хочу тур
       </h2>
       <form class="search-tour__content" method="POST" action="https://jsonplaceholder.typicode.com/posts">
-        <div>
+        <div class="search-tour__element">
           <label class="search-tour__label" for="departure-сity">Город вылета</label>
           <select class="search-tour__value search-tour__value_select" name="departure-сity" id="departure-сity">
             <option>Санкт-Петербург</option>
           </select>
         </div>
-        <div>
+        <div class="search-tour__element">
           <label class="search-tour__label" for="country">Страна</label>
           <select class="search-tour__value search-tour__value_select" name="country" id="country">
             <option>Австралия</option>
           </select>
         </div>
-        <div>
+        <div class="search-tour__element">
           <label class="search-tour__label" for="arrival-date">Дата прибытия</label>
           <input type="date" class="search-tour__value" name="arrival-date" id="arrival-date">
         </div>
-        <div>
+        <div class="search-tour__element">
           <label class="search-tour__label" for="number-nights">Ночей</label>
           <input type="number" class="search-tour__value search-tour__value_number" name="number-nights" id="number-nights">
         </div>
-        <div>
+        <div class="search-tour__element">
           <label class="search-tour__label" for="number-tourists">Туристы</label>
           <input type="number" required class="search-tour__value search-tour__value_number" name="number-tourists" id="number-tourists">
         </div>

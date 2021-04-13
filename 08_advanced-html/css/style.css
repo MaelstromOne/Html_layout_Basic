@@ -366,12 +366,13 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 30px;
-
+  box-sizing: border-box;
 }
 
-.search-tour__content > *:not(:last-child)::after {
-  content: '';
-  border: 1px solid #E1E1E1 ;
+.search-tour__element:not(:last-child) {
+  border-right: 1px solid #E1E1E1 ;
+  margin-right: 20px;
+  padding-right: 20px;
 }
 
 .search-tour__label {
@@ -386,6 +387,7 @@ nav {
 
 .search-tour__value_number {
   border-bottom: 1px solid #CCCCCC;
+  width: 120px;
 }
 
 .search-tour__value_select {
@@ -396,7 +398,7 @@ nav {
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: -0.2rem;
-  padding-right: 4rem;
+  padding-right: 3rem;
 }
 
 .search-tour__sumbit {
@@ -437,6 +439,10 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 380px;
+}
+
+.contacts-content__wrapper:not(:last-child) {
+  border-bottom: 1px solid #E1E1E1 ;
 }
 
 .contacts-content__value_wrapper {
