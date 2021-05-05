@@ -15,30 +15,30 @@
         <img class="logo" src="img/Logo.png" alt="Logo">
         <a class="phone-number" href="tel:+74953225448">+7 495 322 54 48</a>
       </div>
-      <div>
+      <div class="personal-area">
       <span class="personal-area-logo">
         <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M10.59 1.41L14.17 5H0V7H14.17L10.58 10.59L12 12L18 6L12 0L10.59 1.41ZM19 0V12H21V0H19Z" fill="#CC9933"/>
         </svg>
       </span>
-        <a class="personal-area" href="">Личный кабинет</a>
+        <a class="personal-area-text" href="">Личный кабинет</a>
       </div>
     </div>
     <nav>
       <ul class="navigation">
-        <li>О нас</li>
-        <li>Услуги</li>
-        <li>Преимущества</li>
-        <li>Размещение</li>
-        <li>Блог</li>
-        <li>Контакты</li>
+        <li><a class="navigation-link" href="">О нас</a></li>
+        <li><a class="navigation-link" href="">Услуги</a></li>
+        <li><a class="navigation-link" href="">Преимущества</a></li>
+        <li><a class="navigation-link" href="">Размещение</a></li>
+        <li><a class="navigation-link" href="">Блог</a></li>
+        <li><a class="navigation-link" href="">Контакты</a></li>
         <li>
           <svg width="1" height="50" viewBox="0 0 1 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="1" height="50" fill="#E1E1E1"/>
           </svg>
         </li>
-        <li><a class="navigation-link" href="">Хочу тур</a></li>
-        <li><a class="navigation-link" href="">Обратный зконок</a></li>
+        <li><a class="navigation-link-second" href="">Хочу тур</a></li>
+        <li><a class="navigation-link-second" href="">Обратный зконок</a></li>
       </ul>
     </nav>
   </div>
@@ -271,6 +271,30 @@
                 </svg>
             </span>
             <p class="advantages-element__text">Значимость этого настолько очевидна, что консультация наших экспертов помогает</p>
+          </div>
+        </li>
+        <li>
+          <div class="advantages-element">
+            <span class="advantages-element__logo">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="59"
+                   viewBox="0 0 63 59">
+                <image id="bathtub" width="63" height="59"
+                       xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAA7CAYAAADMzlLJAAAG9klEQVRoge2be2wURRzHv33wEAGXZysakSDoabdSH5FgKFwMRI0vNkQjxJxIqAZ8oRjFLBjJCv8IagkIVqP3hwRjssojRkQ8aQIReVUWbSlFbHgIl1KuPETp48zvmCtzM3t3e3Tv+uKTXNid+e3s/Jjfzvzm95tmwQVCAR+1UwrgYQA5APoB6A/gPwCnAIQBVAHwKV7/yXhvDAV8+QD8AG4FQG0OAtALwBkAZwE0A1gP4DXF6w9LDaRIrhvKA3gAwItS6aX2r2XXw6nTAN6UpC4zD8BkqRQYyH7EqwDWAfhZkkqR7LY2wGiQSuwJ2Za6344jXBl5xevfGQr4ZjGzHwBgIle9H8AhAAcAfCg9HMtSAH2Z2Y8EUMDVbmamv17x+iukJ68AV755nlDANwbAXq5oruL1J1NaIhTwkXl/wJWPULz+vyTBNuDWN5+ImaGAb6JNPU2IQwEE2YQmMlIqcZlMKF8gmK/IHVJJhnBrwuuUZGLk/2XrPU8PAH24+38ANAoytL73llpzkUwoP1+c8EIB3xMAvuGKpite/7eCjDjhuU46zF4c5WZJwhktgpR432bSofxB9gMz5a2ShDO2cp8CtXeswyuveP1NAMaSKQMoVLz+fZKQs3Z+o+dZO2MVr/9KLSguafnmFa+/HsAaqSL1dqrYhigttNdSJ45ikySRAdpL+T0ALrDr8wB2SRIZwHXf3imhgE8FMAnA94rX/0d79eMq3ZEYs1c1ndzOIgD5ceYD2omNusJV4hybuV1fshxADtIJ2mpbptHqRkeUVzU9i4WHdC5c1BWhJdigoIplGuHo6K4CsKyLKw6mH+lJ+iJL1fTHWECwu/E4fbtzeKXvv68QRYWjkZ0d+8lXWNUo3345dDZt6mQMHqQk/f+iZ+jZKM/PmIJePXtIcumkpaUFe/dVY9uOGE97Ti6b4CKMGD4MJZHdpkzdqdjAqmf0zbjpxnxJTqSqujamZEzBKPS5Jq3bdFvuLbodx0/U4XDt8Wh1UTY/c/fskdkRyTSCfjm5LLQ8nu4O1NTi63VbcM8YD3JyYs3+dMguxpg6R48F0bt3z4yq3dzcgl0VVRH9OPaT8mVR5YmNm7ZFfunivWVfZFTxBJTR8H4JYEN8mS4JrW5rsi3TIO9nKouXiUHErkYjywo9SXpHJjvLNC5SElHV9MUAarnIKs0Hn7HrCQDsl4LUeJvbzmYKihf8TclNyzQoaxwhxke3TKNO1XR+9A9ZphGJvKoaeb6uKP+xZRquJBrbit3mpdtwNWPTVVE1nTYySygWCmCBZRrV3UZ5AO8AKGHX+WzSbqWrm/3wONcRUhn5s/zNWvNHDFD6SUIiBw7GuJRhlpTsENgpT078dey6F1e+lXU+Ev35vepP6UEHbGc+RaYYnOg9dmbP72Ba96yWadS0MWtKqerXpdL0wit/SnyTnfIHuevbVE3nt2B0VOxlQSYZNNJbaPNkmcaOJLKuoWp6XxZsjXJIbNvO7HdznhxFHcZFz7xR0A/Acvbr6EwQBne32F+7kd8i3D8jSXQOnhV6udmJ8r8A4I98TVM1fZgk1YFRNX2ksA+psUxjT1LlmWmv4orI9N/vZKNeKnzSKyUJO+UZK9j5uChPq5reKcxf1fSX2EnQKLSVXS0JshPSEsHK8ot5nmI6HT2Fq3skz1O8M1hZXiM90EFgOYjPhUEtsUxjr10PE6aoVU1fC+Aproj2+rMt0/hUEm5HWLptDvNDeHNfY5nG9Hg9i2f2UZ4D8Ct3T7HfMlXTN6iafosk3Q6oml7AVqjlguI0cc9K1KOEI49LjdOB/43skJEIZT4/oTnCMo2gVJtGVE0vYUnHITZvIcUftEwj4RF2RyczVE3vw9bJcVLlZch9rGNubFu5wDKpX9m1o2r6uwAWShWXoLj7JMs0ksYJnSpfyM7R2E6QaYLc4oGWaZwX+kJ/ibEpwSspWFlkmcZ+qUbA6X7+FV7xoUMG4Ibr7azNVeL9Dc1c/ob6MSQ2YZrL9h9JsfPt7bg7WjZQ6Y8lC2ZHsrgLFq/G0eOtn/pFNjkm3+Qnp4GZ/Xkbyda+UKJ00fxZaGxqxhsLSxFqOBetukt6yoaUw1hhhCMp36zsLITDMYNz2jKN8dIDaYTeT12I/psqTpXfCeDOiIahs5i/aCVycnNwMlgvymQCOrP3EL3nyLGTeGvRCjQ2NqHhzDn+1Y7O9Tn95kv5U5J19Q2i4mDHPTLBUv4d1I/60zEZZHLEPnLSD0ezd7CyPJjnKT4C4NE4/2HzLNNo81lbh305nOcpvsAOMIqQ4jMt0xC35bY4XrqCleUVeZ5iyubShEY7PZqUfgLwgmUa5AZnjGBl+bY8T3GAxRqpL+RffAdghmUaPzjqCID/AZm073Fzj6tzAAAAAElFTkSuQmCC"/>
+              </svg>
+            </span>
+            <p class="advantages-element__text">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
+          </div>
+        </li>
+        <li>
+          <div class="advantages-element">
+            <span class="advantages-element__logo">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="59"
+                   viewBox="0 0 60 59">
+                <image id="hanger" width="60" height="59"
+                       xlink:href="data:img/png;base64,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"/>
+              </svg>
+            </span>
+            <p class="advantages-element__text">Значимость этих проблем настолько очевидна, что вопрос остается открытым</p>
           </div>
         </li>
       </ul>

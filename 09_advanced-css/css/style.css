@@ -45,11 +45,26 @@ header {
   font-weight: 500;
   font-size: 20px;
   color: #666666;
+  transition: background 0.3s ease;
+}
+
+.phone-number:hover {
+  border-radius: 5px;
+  background: #FFCF687F;
+}
+
+.personal-area-text {
+  font-size: 16px;
+  color: #CC9933;
 }
 
 .personal-area {
-  font-size: 16px;
-  color: #CC9933;
+  transition: background 0.3s ease;
+}
+
+.personal-area:hover {
+  border-radius: 5px;
+  background: #FFCF687F;
 }
 
 nav {
@@ -67,11 +82,26 @@ nav {
 }
 
 .navigation-link {
+  color: black;
+  transition: background 0.3s ease;
+}
+
+.navigation-link:hover {
+  border-radius: 5px;
+  background: #FFCF687F;
+}
+
+.navigation-link-second {
   font-size: 16px;
   color: #CC9933;
   border-radius: 10px;
   border: 1px solid #CC9933;
   padding: 10px;
+  transition: background 0.3s ease;
+}
+
+.navigation-link-second:hover {
+  background: #FFCF687F;
 }
 
 .offers {
@@ -141,6 +171,12 @@ nav {
   bottom: 40px;
   left: 40px;
   display: flex;
+  transition: background 0.3s ease;
+}
+
+.offers-link:hover {
+  border-radius: 5px;
+  background: #FFCF687F;
 }
 
 .offers-link a {
@@ -207,6 +243,12 @@ nav {
 .services-content-container-header {
   display: flex;
   align-items: center;
+  transition: background 0.3s ease;
+}
+
+.services-content-container-header:hover {
+  border-radius: 5px;
+  background: #FFCF687F;
 }
 
 .services-content-header {
@@ -240,11 +282,14 @@ nav {
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .advantages__body > *{
   flex-basis: 23.5%;
+}
+
+.advantages__body > *:not(:nth-child(4n)){
+  margin-right: 23px;
 }
 
 .advantages-element {
@@ -320,6 +365,12 @@ nav {
   border-radius: 10px;
   border: 1px solid #CC9933;
   padding: 10px;
+  transition: background 0.3s ease;
+}
+
+.placement-content__link:hover {
+  border-radius: 5px;
+  background: #FFCF687F;
 }
 
 .placement-content__wrapper {
@@ -335,8 +386,15 @@ nav {
 .placement-last-element__wrapper {
   display: flex;
   position: relative;
+  width: 270px;
   bottom: 60px;
   left: 54px;
+  transition: background 0.3s ease;
+}
+
+.placement-last-element__wrapper:hover {
+  border-radius: 5px;
+  background: #FFCF687F;
 }
 
 .placement-last-element__link {
@@ -407,6 +465,12 @@ nav {
   background: white;
   color: #CC9933;
   padding: 10px 30px;
+  transition: background 0.3s ease;
+}
+
+.search-tour__sumbit:hover {
+  border-radius: 5px;
+  background: #FFCF687F;
 }
 
 .contacts {
@@ -463,6 +527,12 @@ nav {
   display: inline-block;
   line-height: 150%;
   color: #CC9933;
+  transition: background 0.3s ease;
+}
+
+.link:hover {
+  border-radius: 5px;
+  background: #FFCF687F;
 }
 
 .contacts-content__value_email {
@@ -477,6 +547,12 @@ nav {
   border: 1px solid #CC9933;
   border-radius: 10px;
   padding: 30px;
+  transition: background 0.3s ease;
+}
+
+.contacts-content__link:hover {
+  border-radius: 5px;
+  background: #FFCF687F;
 }
 
 .footer__wrapper {
@@ -502,6 +578,7 @@ nav {
 
 .footer-wrapper__link {
   display: block;
+  width: 160px;
 }
 
 .footer-wrapper__center {
@@ -520,6 +597,16 @@ nav {
 
 .footer-wrapper__right > a {
   display: block;
+  transition: background 0.3s ease;
+}
+
+.footer-wrapper__right img {
+  transition: background 0.3s ease;
+}
+
+.footer-wrapper__right img:hover {
+  border-radius: 5px;
+  background: #FFCF687F;
 }
 
 .footer-wrapper__right > a:not(:last-child) {
