@@ -133,6 +133,32 @@ nav {
   position: relative;
 }
 
+.offers-element img {
+  border-radius: 15px;
+}
+
+.offers-element_horizontal-gradient::before {
+  position: absolute;
+  border-radius: 15px;
+  content:"";
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  background: linear-gradient(to right, rgba(48,64,89,0.84) 0%, rgba(53,65,83,0) 70%);
+}
+
+.offers-element_vertical-gradient::before {
+  position: absolute;
+  border-radius: 15px;
+  content:"";
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  background: linear-gradient(to top, rgba(48,64,89,0.84) 0%, rgba(53,65,83,0) 70%);
+}
+
 .offers-content {
   color: white;
   position: absolute;
