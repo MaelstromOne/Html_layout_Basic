@@ -1,0 +1,266 @@
+body {
+  font-family: 'Montserrat';
+  background: var(--background-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1770px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 13px 0;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.2);
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-right-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__list-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__link {
+  color: var(--black-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-right: 85px;
+}
+
+li:last-child > .header__link {
+  margin-right: 71px;
+}
+
+.header__link:hover {
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--hover-color);
+}
+
+.header__link:active {
+  color: var(--active-color);
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--active-color);
+}
+
+.search {
+  background: url("../img/Search.svg") no-repeat center;
+  background-size: contain;
+  width: 23px;
+  margin-right: 14px;
+}
+
+.search:hover {
+  background-image: url("../img/Search-hover.svg")
+
+}
+
+.search:active {
+  background-image: url("../img/Search-active.svg")
+}
+
+.slider {
+  position: relative;
+  background: url("../img/low-angle-photo-of-balconies-2462015 1.jpg");
+  width: 1770px;
+  height: 620px;
+}
+
+.slider__container {
+  position: absolute;
+  width: 820px;
+  top: 103px;
+  left: 78px;
+}
+
+.slider__header {
+  color: var(--white-color);
+  font-size: 70px;
+  line-height: 86px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.slider__text {
+  color: var(--white-color);
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 29px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.slider__link {
+  display: block;
+  width: 280px;
+  color: var(--white-color);
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 29px;
+  padding: 25px 37px;
+  margin-top: 97px;
+  background: var(--main-color);
+}
+
+.slider__link:hover {
+  background: var(--hover-alpha-color);
+}
+
+.slider__link:active {
+  background: var(--active-color);
+}
+
+.about-us__header {
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.about-us__text {
+  margin-top: 22px;
+  width: 1200px;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.i {
+  display: inline-block;
+  background: url("../img/i - Тултип.svg") no-repeat center;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+}
+
+.about-us__wrapper {
+  display: flex;
+  margin-top: 44px;
+  justify-content: space-between;
+  flex-basis: 870px;
+}
+
+.about-us-right-wrapper__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 870px;
+  height: 295px;
+  border: solid 1px #CACACA;
+  margin-bottom: 30px;
+  padding: 67px 118px 72px 63px;
+}
+
+.about-us-right-wrapper__wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.about-us-right-wrapper__content {
+  width: 452px;
+}
+
+.box-icon {
+  display: block;
+  background: url("../img/Group 25.svg") no-repeat center;
+  background-size: contain;
+  width: 178px;
+  height: 137px;
+}
+
+.gear-icon {
+  background: url("../img/Group 24.svg") no-repeat center;
+  background-size: contain;
+  width: 178px;
+  height: 153px;
+}
+
+.about-us-right-wrapper__header {
+  margin: 0;
+  color: var(--black-color);
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.about-us-right-wrapper__text {
+  margin: 0;
+  color: var(--black-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.about-us__left-container {
+  background: url("../img/Rectangle 2.jpg") no-repeat center;
+  background-size: contain;
+  position: relative;
+  width: 870px;
+  height: 622px;
+}
+
+.about-us-left-container__bottom-container {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 870px;
+  height: 176px;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 68px 44px 54px;
+}
+
+.about-us-left-container__text {
+  width: 497px;
+  color: var(--white-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.about-us-left-container__link {
+  color: var(--white-color);
+  padding: 17px 35px;
+  border: solid 3px var(--main-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.about-us-left-container__link:hover {
+  background: var(--main-color);
+}
+
+.about-us-left-container__link:active {
+  border-color: var(--active-color);
+  background: var(--active-color);
+}
