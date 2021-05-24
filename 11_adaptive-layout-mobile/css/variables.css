@@ -1,0 +1,10 @@
+:root {
+  --black-color: #333;
+  --gray-color: #666;
+  --white-color: white;
+  --main-color: #ff9900;
+  --hover-color: var(--main-color);
+  --hover-alpha-color: #FF990099;
+  --active-color: #E1670E;
+  --background-color: var(--white-color);
+}
