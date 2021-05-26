@@ -14,7 +14,10 @@
         <div class="header-wrapper">
             <span class="header__mobile-navbutton"></span>
             <a href="">
-                <img src="img/Логотип%201-min.png" alt="">
+              <picture>
+                <source srcset="img/Логотип%201.png" media="(min-width: 1400px)">
+                <img src="img/Логотип%201-min.png" alt="Логотип">
+              </picture>
             </a>
             <div class="header-right-wrapper">
                 <nav class="header__desktop-navbar">
@@ -161,9 +164,9 @@
             <div class="footer__center-container">
                 <h2 class="footer__request-header">Оставить заявку</h2>
                 <form action="" class="footer__request">
-                    <input class="footer-request__name" type="text" name="name" placeholder="Фамилия, имя и отчество*" size="55" required/><br>
-                    <input class="footer-request__email" type="email" name="email" placeholder="E-mail*" size="55" required/><br>
-                    <textarea class="footer-request__text" name="text" placeholder="Сообщение" rows="6" cols="56"></textarea><br>
+                    <input class="footer-request__name" type="text" name="name" placeholder="Фамилия, имя и отчество*" required/><br>
+                    <input class="footer-request__email" type="email" name="email" placeholder="E-mail*" required/><br>
+                    <textarea class="footer-request__text" name="text" placeholder="Сообщение"></textarea><br>
                     <div class="footer__button-wrapper">
                         <input class="footer__submit" type="submit" value="Отправить данные">
                         <input class="footer__checkbox" type="checkbox">

@@ -481,16 +481,20 @@ li:last-child > .header__link {
 
 .footer-request__name {
   padding: 19px 25px;
+  width: 570px;
 }
 
 .footer-request__email {
   padding: 19px 25px;
   margin-top: 25px;
+  width: 570px;
 }
 
 .footer-request__text {
   padding: 19px 25px;
   margin-top: 25px;
+  width: 570px;
+  height: 150px;
 }
 
 .footer__button-wrapper {
@@ -690,17 +694,49 @@ li:last-child > .header__link {
   }
 
   .faq__element {
-    padding: 19px 5px;
+    padding: 19px 0;
+    max-height: 125px;
   }
 
   .faq_text {
-    width: 700px;
+    width: 750px;
     font-weight: bold;
     font-size: 20px;
     line-height: 32px;
   }
 
+  .faq {
+    margin-bottom: 51px;
+  }
+
+  .footer__left-container {
+    min-width: 270px;
+  }
+
+  .footer-request__name {
+    width: 535px;
+  }
+
+  .footer-request__email {
+    width: 535px;
+  }
+
+  .footer-request__text {
+    width: 535px;
+    height: 150px;
+  }
+
+  .footer__submit {
+    padding: 20px 36px;
+    margin-right: 12px;
+  }
+
   .footer__right-container {
     display: none;
   }
+
+  .footer {
+    padding-bottom: 75px;
+  }
+
 }
