@@ -183,7 +183,6 @@ li:last-child > .header__link {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 870px;
   height: 295px;
   border: solid 1px #CACACA;
   margin-bottom: 30px;
@@ -233,8 +232,12 @@ li:last-child > .header__link {
   background: url("../img/Rectangle 2.jpg") no-repeat center;
   background-size: cover;
   position: relative;
-  width: 870px;
+  flex-basis: 49.2%;
   height: 622px;
+}
+
+.about-us__right-wrapper {
+  flex-basis: 49.2%;
 }
 
 .about-us-left-container__bottom-container {
@@ -319,7 +322,7 @@ li:last-child > .header__link {
 }
 
 .how-working__left-container {
-  width: 758px;
+  flex-basis: 42.82%;
 }
 
 .how-working-body__header {
@@ -337,7 +340,8 @@ li:last-child > .header__link {
 }
 
 .how-working__right-image {
-  width: 870px;
+  flex-basis: 49.15%;
+  object-fit: cover;
 }
 
 .how-working-body__buttons-container {
@@ -565,9 +569,44 @@ li:last-child > .header__link {
   height: 60px;
 }
 
+@media (max-width: 1910px) {
+  .container {
+    margin: 0 50px;
+  }
+
+  .slider {
+    width: auto;
+  }
+
+  .about-us__left-container {
+    flex-basis: 45%;
+  }
+
+  .about-us__right-wrapper {
+    flex-basis: 45%;
+  }
+
+  .about-us-right-wrapper__wrapper {
+    padding: 67px 30px 72px 30px;
+  }
+
+  .about-us-right-wrapper__content {
+    margin-left: 30px;
+  }
+
+  .footer__text {
+    width: 300px;
+  }
+
+  .footer__center-container {
+    margin-left: 50px;
+  }
+}
+
 @media (max-width: 1400px) {
   .container {
     max-width: 924px;
+    margin: 0 auto;
   }
 
   header {
