@@ -1,6 +1,7 @@
 body {
   font-family: Muller;
   background: #E5E5E5;
+  min-width: 1170px;
 }
 
 * {
