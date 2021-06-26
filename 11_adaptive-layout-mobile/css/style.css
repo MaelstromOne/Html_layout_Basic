@@ -946,7 +946,9 @@ li:last-child > .header__link {
   }
 
   .header__logo {
-    width: 70%;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .slider__container {
@@ -1158,7 +1160,8 @@ li:last-child > .header__link {
   }
 
   .faq__element {
-    padding: 15px 0;
+    max-height: 130px;
+    padding: 18px 0;
   }
 
   .faq_text {
@@ -1175,7 +1178,7 @@ li:last-child > .header__link {
   }
 
   .faq {
-    margin-bottom: 60px;
+    margin-bottom: 58px;
   }
 
   .footer {
@@ -1213,24 +1216,29 @@ li:last-child > .header__link {
   }
 
   .footer__label {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     margin: 17px auto 0;
   }
 
+  .footer__checkbox {
+    margin-right: 5px;
+  }
+
   .footer__left-container {
-    margin-top: 35px;
+    margin-top: 40px;
   }
 
   .footer__logo {
-    display: inline-block;
+    display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 45%;
   }
 
   .footer__social {
     width: 53%;
     justify-content: space-between;
-    margin: 10px auto 0;
+    margin: 15px auto 0;
   }
 
   .footer__fb, .footer__vk, .footer__inst {
