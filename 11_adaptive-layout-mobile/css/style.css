@@ -98,7 +98,7 @@ li:last-child > .header__link {
 
 .slider {
   position: relative;
-  background: url("../img/low-angle-photo-of-balconies-2462015 1.jpg");
+  /*background: url("../img/low-angle-photo-of-balconies-2462015 1.jpg");*/
   width: 1770px;
   height: 620px;
 }
@@ -108,6 +108,7 @@ li:last-child > .header__link {
   width: 820px;
   top: 103px;
   left: 78px;
+  z-index: 2;
 }
 
 .slider__header {
@@ -148,6 +149,18 @@ li:last-child > .header__link {
 
 .slider__link:active {
   background: var(--active-color);
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--main-color);
+}
+
+.swiper-button-prev {
+  color: var(--main-color);
+}
+
+.swiper-button-next {
+  color: var(--main-color);
 }
 
 .about-us__header {
@@ -317,13 +330,20 @@ li:last-child > .header__link {
 }
 
 .how-working__body {
-  display: flex;
+  display: none;
   justify-content: space-between;
   margin-top: 45px;
 }
 
+.how-working__body_active {
+ display: flex;
+}
+
 .how-working__left-container {
   flex-basis: 42.82%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .how-working-body__header {
@@ -404,12 +424,29 @@ li:last-child > .header__link {
 }
 
 .faq__element {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 14.5px 5px;
   border: solid #CACACA;
   border-width: 1px 0;
+  cursor: pointer;
+}
+
+.faq-element__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-element__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  width: 70%;
+  display: none;
+}
+
+.faq-element__text_active {
+  display: block;
 }
 
 .faq__element:hover {
@@ -433,6 +470,11 @@ li:last-child > .header__link {
   position: relative;
   width: 50px;
   height: 50px;
+  transition-duration: 0.5s
+}
+
+.faq__icon_close {
+  transform: rotate(45deg);
 }
 
 .faq__element:hover .faq__icon {
@@ -734,7 +776,10 @@ li:last-child > .header__link {
 
   .faq__element {
     padding: 19px 0;
-    max-height: 125px;
+  }
+
+  .faq-element__text {
+    width: 90%;
   }
 
   .faq_text {
@@ -1160,7 +1205,6 @@ li:last-child > .header__link {
   }
 
   .faq__element {
-    max-height: 130px;
     padding: 18px 0;
   }
 
@@ -1170,6 +1214,13 @@ li:last-child > .header__link {
     font-size: 14px;
     line-height: 24px;
     flex-basis: 84%;
+  }
+
+  .faq-element__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
   }
 
   .faq__icon {
