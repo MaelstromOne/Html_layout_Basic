@@ -49,11 +49,42 @@ img {
   background-size: contain;
   width: 30px;
   height: 23px;
+  cursor: pointer;
+}
+
+.header__mobile-navbutton:hover {
+  background: url("../img/Burger-hover.svg");
+}
+
+.header__mobile-navbutton:active {
+  background: url("../img/Burger-click.svg");
 }
 
 .header__list-navigation {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.header__mobile-navbar {
+  opacity: 0;
+  max-height: 0;
+  transition: opacity .3s, max-height .5s;
+  overflow: hidden;
+}
+
+.header__mobile-navbar_show {
+  opacity: 1;
+  max-height: 4em;
+  transition: opacity .8s, max-height .5s;
+}
+
+.header-mobile__link {
+  color: var(--black-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .header__link {
@@ -68,12 +99,12 @@ li:last-child > .header__link {
   margin-right: 71px;
 }
 
-.header__link:hover {
+.header__link:hover, .header-mobile__link:hover {
   padding-bottom: 10px;
   border-bottom: 2px solid var(--hover-color);
 }
 
-.header__link:active {
+.header__link:active, .header-mobile__link:active {
   color: var(--active-color);
   padding-bottom: 10px;
   border-bottom: 2px solid var(--active-color);
@@ -1004,6 +1035,10 @@ li:last-child > .header__link {
     display: block;
     width: 80%;
     margin: 0 auto;
+  }
+
+  .header-mobile__list-navigation li {
+    flex-basis: 30%;
   }
 
   .slider__container {
