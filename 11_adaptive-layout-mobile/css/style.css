@@ -103,6 +103,12 @@ li:last-child > .header__link {
   height: 620px;
 }
 
+.swiper-slide img {
+  width: 1770px;
+  height: 620px;
+  object-fit: cover;
+}
+
 .slider__container {
   position: absolute;
   width: 820px;
@@ -676,7 +682,11 @@ li:last-child > .header__link {
   .slider {
     max-width: 924px;
     height: 670px;
-    background-size: cover;
+  }
+
+  .swiper-slide img {
+    max-width: 924px;
+    height: 670px;
   }
 
   .slider__container {
@@ -1030,6 +1040,10 @@ li:last-child > .header__link {
   }
 
   .slider {
+    height: 310px;
+  }
+
+  .swiper-slide img {
     height: 310px;
   }
 
