@@ -1,0 +1,7 @@
+#map {
+    margin-top: 50px;
+}
+
+[class*="ground-pane"] {
+    filter: grayscale();
+}

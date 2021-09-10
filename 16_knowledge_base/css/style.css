@@ -1,0 +1,26 @@
+body {
+  font-family: OpenSans;
+  color: var(--black33);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}

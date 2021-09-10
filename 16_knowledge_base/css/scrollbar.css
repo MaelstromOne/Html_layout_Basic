@@ -1,0 +1,14 @@
+.scroll {
+    height: 310px;
+    width: 399px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.simplebar-content-wrapper {
+    overflow: auto;
+}
+
+.simplebar-scrollbar::before {
+    background: #CCB26E;
+}
