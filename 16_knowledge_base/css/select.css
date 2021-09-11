@@ -15,3 +15,7 @@
 .choices__item {
     color: var(--black33);
 }
+
+[id*="item-choice-1"] {
+    display: none;
+}

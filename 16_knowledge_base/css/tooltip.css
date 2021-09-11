@@ -28,10 +28,10 @@
     color: #FFFFFF;
     width: 163px;
     position: absolute;
-    bottom: 0;
+    top: 0;
     padding: 7px 15px;
     background: #666666;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -100%) translateY(-5px);;
     opacity: 0;
     transition: opacity .3s ease-in-out;
 }
