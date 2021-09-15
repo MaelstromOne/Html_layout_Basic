@@ -906,6 +906,11 @@ li:last-child > .header__link {
     width: 280px;
   }
 
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+
   .about-us__header {
     margin-top: 75px;
   }
