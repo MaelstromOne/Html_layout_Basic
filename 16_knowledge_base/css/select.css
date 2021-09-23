@@ -1,0 +1,21 @@
+.select {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--black33);
+}
+
+.choices__inner {
+    background: #FFFFFF;
+    border: 1px solid #CCB26E;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.choices__item {
+    color: var(--black33);
+}
+
+[id*="item-choice-1"] {
+    display: none;
+}

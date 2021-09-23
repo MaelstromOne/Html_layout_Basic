@@ -1,0 +1,39 @@
+.form {
+    margin-top: 50px;
+    font-family: Roboto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 410px;
+    width: 440px;
+    background: black;
+    padding: 38px 30px;
+}
+
+form input {
+    padding: 20px 20px;
+    border: 1px solid #FF5C00;
+    border-radius: 10px;
+    margin-bottom: 31px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+form button {
+    padding: 18px 53px;
+    color: white;
+    background: #FF5C00;
+    font-size: 20px;
+    line-height: 23px;
+    border-radius: 10px;
+    display: inline;
+    align-self: flex-start;
+}
+
+.js-validate-error-label {
+    position: relative;
+    top: -110px;
+    height: 0;
+}
