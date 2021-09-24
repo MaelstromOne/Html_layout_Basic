@@ -1,0 +1,42 @@
+body {
+  font-family: 'Roboto';
+  color: white;
+  background: #E5E5E5;
+}
+
+/** {*/
+/*  box-sizing: border-box;*/
+/*}*/
+
+/**:focus {*/
+/*  outline: 2px solid var(--hover-alpha-color);*/
+/*}*/
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/*img {*/
+/*  max-width: 100%;*/
+/*}*/
+
+.container {
+  width: 1110px;
+}
+
+.header {
+  background: #3F2AFF;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__link {
+  color: white;
+}
