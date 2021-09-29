@@ -260,6 +260,23 @@ img {
   border-radius: 20px;
 }
 
+.course__duration {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.course__duration-text {
+  margin: 0 0 0 7px;
+  color: var(--white);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
 .social {
   background: var(--dark);
   padding: 31px 0;
@@ -292,6 +309,10 @@ img {
 
 .copyright__icon {
   color: var(--primary);
+}
+
+.course__element {
+  margin-bottom: 30px;
 }
 
 @media (max-width: 991px) {
@@ -373,6 +394,10 @@ img {
 
   .advantages__img {
     margin-top: 0;
+  }
+
+  .course__link {
+    padding: 20px 55px;
   }
 }
 
@@ -459,5 +484,23 @@ img {
     font-size: 16px;
     line-height: 120%;
     margin: 0;
+  }
+
+  .teachers__header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .courses__header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .course__link {
+    padding: 20px 48px;
   }
 }
