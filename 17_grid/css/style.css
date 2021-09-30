@@ -111,7 +111,7 @@ img {
 
 .advantages {
   padding-top: 80px;
-  padding-bottom: 70px;
+  padding-bottom: 69px;
 }
 
 .advantages__wrapper {
@@ -224,7 +224,7 @@ img {
 }
 
 .course__element {
-  margin: 0 10px 30px;
+  margin: 0 0 30px;
   padding: 0;
   background: var(--grayED);
   border-radius: 20px;
