@@ -207,7 +207,7 @@ img {
 }
 
 .courses {
-  padding-bottom: 53px;
+  padding-bottom: 50px;
 }
 
 .courses__header {
@@ -220,15 +220,16 @@ img {
 }
 
 .courses-list {
-  margin-top: 20px;
+  margin-top: 23px;
 }
 
 .course__element {
-  margin: 0 0 30px;
+  margin: 0 0 29px;
   padding: 0;
   background: var(--grayED);
   border-radius: 20px;
-  min-height: 480px;
+  flex-basis: 48.7%;
+  position: relative;
 }
 .course__img {
   width: 100%;
@@ -238,7 +239,7 @@ img {
 }
 
 .course__content {
-  padding: 25px;
+  padding: 31px ;
 }
 
 .course__header {
@@ -246,7 +247,7 @@ img {
   font-weight: bold;
   font-size: 18px;
   line-height: 150%;
-  margin-top: 10px;
+  margin-top: -3px;
   margin-bottom: 0;
 }
 
@@ -256,23 +257,20 @@ img {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .course__link {
-  display: inline-block;
+  display: block;
   color: var(--white);
   background: var(--primary);
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
-  margin-top: 40px;
   padding: 20px 59px;
   border-radius: 20px;
-  position: absolute;
-  left: 45px;
-  bottom: 58px;
+  margin: 4px 0 31px 30px;
 }
 
 .course__duration {
@@ -280,7 +278,7 @@ img {
   align-items: center;
   position: absolute;
   top: 10px;
-  right: 30px;
+  right: 4px;
 }
 
 .course__duration-text {
@@ -294,7 +292,7 @@ img {
 
 .social {
   background: var(--dark);
-  padding: 28px 0;
+  padding: 30px 0 25px;
 }
 
 .social__wrapper {
@@ -394,7 +392,15 @@ img {
   }
 
   .course__element {
-    min-height: 556px;
+    flex-basis: 47.8%;
+  }
+
+  .course__header {
+    margin-top: -5px;
+  }
+
+  .course__text {
+    margin-bottom: -3px;
   }
 
   .course__link {
@@ -459,12 +465,16 @@ img {
     padding-bottom: 50px;
   }
 
-  .course__link {
-    padding: 20px 48px;
+  .course__element {
+    flex-basis: 48.1%;
   }
 
-  .course__element {
-    min-height: 653px;
+  .course__text {
+    margin-top: 10px;
+  }
+
+  .course__link {
+    padding: 20px 48px;
   }
 
   .course__header {
@@ -596,11 +606,15 @@ img {
   }
 
   .courses-list {
-    margin-top: 25px;
+    margin-top: 28px;
   }
 
   .course__element {
-    margin-bottom: 30px;
+    flex-basis: 100%;
+  }
+
+  .course__content {
+    padding: 31px 29px 80px 31px;
   }
 
   .course__link {
