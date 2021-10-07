@@ -614,6 +614,7 @@ img {
   }
 
   .course__content {
+    min-height: 377px;
     padding: 31px 29px 80px 31px;
   }
 
