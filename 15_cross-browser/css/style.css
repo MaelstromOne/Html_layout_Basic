@@ -10,6 +10,7 @@ body {
 
 *:focus {
   outline: 2px solid var(--hover-alpha-color);
+  outline-offset: 5px;
 }
 
 a {
@@ -56,7 +57,7 @@ img {
   cursor: pointer;
 }
 
-.header__mobile-navbutton:hover {
+.header__mobile-navbutton_show {
   background: url("../img/Burger-hover.svg");
 }
 
@@ -76,11 +77,12 @@ img {
   max-height: 0;
   transition: opacity .3s, max-height .5s;
   overflow: hidden;
+  padding: 10px;
 }
 
 .header__mobile-navbar_show {
   opacity: 1;
-  max-height: 4em;
+  max-height: 6em;
   transition: opacity .8s, max-height .5s;
 }
 
@@ -89,6 +91,7 @@ img {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
+  text-align: center;
 }
 
 .header__link {
@@ -1049,6 +1052,7 @@ li:last-child > .header__link {
 
   .header-mobile__list-navigation li {
     flex-basis: 30%;
+    margin-bottom: 15px;
   }
 
   .slider__container {
@@ -1082,6 +1086,7 @@ li:last-child > .header__link {
     width: 160px;
     padding: 12px 20px;
     margin: 30px auto;
+    text-align: center;
   }
 
   .slider {
@@ -1241,7 +1246,7 @@ li:last-child > .header__link {
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 19px;
     padding: 12px 45px;
     margin-right: 8px;
   }
