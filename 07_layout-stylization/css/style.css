@@ -347,3 +347,8 @@ nav {
   line-height: 200%;
 }
 
+@media (max-width: 1210px) {
+  .container {
+    margin: 0 20px;
+  }
+}
